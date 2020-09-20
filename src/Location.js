@@ -18,7 +18,7 @@ class Location extends Component {
             <div className="container">
               <div className="row state" >
                   <div className="col-3 ">
-                      <p><a href="#" >Lagos (19)</a></p>
+                      <p> Lagos (19)</p>
                       <p>Ogun (3)</p>
                       <p>Oyo (4)</p>
                       <p>Bauchi (1)</p>
