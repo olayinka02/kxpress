@@ -1,0 +1,546 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #fff8ee;
+   
+  }
+  .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+    animation-name:boxanime;
+    animation-duration:6s;
+
+    
+  }
+  @keyframes boxanime{
+    50%{
+      background-color:#F8F4E3;
+    }
+  }
+  .icon img{
+    
+    margin-left: 7rem;
+  }
+  
+  .connecting{
+   
+    background-color: #fff8ee;
+    padding: 15rem;
+  }
+  .icon Button{
+    color: #f84ca2;
+    background: #fff8ee;
+    border-color: #f84ca2;
+    margin-right: 3rem;
+    margin-left: 2em;
+    
+     
+    
+
+  }
+  
+  .body{
+    margin-left: 7rem;
+   
+    color: #353434;
+  }
+  .connecting .row .body h2,p{
+      width:24vw ;
+  }
+  
+  .body p{
+    color:#5f5d5d;
+    font-size: 1rem;
+  }
+  .body img{
+    width: 30vw;
+  }
+  .one input{
+    width: 20vw;
+    height: 60px;
+    margin-left:30rem ;
+    margin-bottom: 0rem;
+    overflow: visible;
+    
+   
+  }
+
+ 
+
+
+  .calculator{
+    border: 0.1px solid #720d42;
+      height: 100vh;
+      
+      background: #940a51;
+      outline: none;
+  }
+  .calc{
+    color: #fcfcfc;
+    
+     text-align: center;
+     margin-left: 1rem;
+    padding: 2rem;
+    font-size: 1rem;
+    margin-right: 2rem;
+    
+      
+  }
+  
+  .calculator p{
+    color:#e2ded9;
+    font-size: 0.9rem;
+  }
+  .calculator1{
+    margin-top: 4rem;
+    height: 50vh;
+   
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+    background: #fcfcfc;
+    font-size: 1rem;
+    padding: 3rem 3rem 6rem 6rem;
+    
+  
+  }
+  .calculator2{
+    margin-top: 4rem;
+    height: 50vh;
+    
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    background: #fcfcfc;
+    font-size: 1rem;
+    text-align: center;
+  
+  }
+  .calculator2 h1{
+    margin-top: 5rem;
+    font-size: 2rem;
+  } 
+  .calculator2 p{
+    color: #3d3c3c;
+    font-size: 1rem;
+  } 
+  form.control{
+    width: 30rem;
+  }
+  
+  .alert img{
+    float: left;
+  }
+  .alert p{
+    font-size: 0.6rem;
+  }
+  .location{
+    background: #720d42;
+    height: 80vh;
+    margin-top: 0px;
+    color:#e2ded9;
+  }
+  .location1{
+    margin-left: 2rem;
+    padding: 5rem;
+    font-size: 1rem;
+    text-align: center;
+  
+  }
+  .state{
+    line-height: 0.8rem;
+    font-size: 1rem;
+    
+  }
+  .delivery{
+    background: #f7f4f4;
+    height: 80vh;
+    margin-top: 0px;
+    columns: #252525;;
+  }
+  .delivery1{
+    margin-left: 2rem;
+    padding: 5rem;
+    font-size: 1rem;
+    text-align: center;
+  
+  }
+  .images{
+    line-height: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .images img {
+    margin-left: 2rem;
+  }
+  
+  .Nation{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #f7f4f4;
+    padding: 5rem;
+    height: 50vh;
+  }
+  .nation{
+    margin-left: 7rem;
+    width: 80vw;
+    columns: #353434;
+  }
+  .Nation Button{
+    color: #f84ca2;
+    background: #f7f4f4;
+    border-color: #f84ca2;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .nation h2{
+    margin-top: 5rem;
+    color:#080808;
+  }
+  .nation p{
+    color:#5f5d5d;
+    font-size: 1rem;
+  }
+  .nation img{
+    width: 30vw;
+    height: 30vh;
+  }
+  .footer{
+    background-color: #383636;
+    padding: 1rem;
+    height: 20vh;
+    width: 100vw;
+    
+  
+  }
+  .footer1{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #f8f8f8;
+    height: 8vh;
+    
+  }
+  .footer li{
+    display: inline;
+    color:#e2ded9;
+    font-size: 0.5rem;
+    margin: 0rem;
+    padding: 1rem;
+    margin-left: 0rem;
+    
+  }
+  
+  .footer a{
+    text-decoration: none;
+    color: #e2ded9;
+  }
+  a:hover{
+    background-color: none;
+    text-decoration: none;
+    
+  }
+  .l p{
+    margin-left: 0rem;
+    color: #e2ded9;
+    font-size: 0.7rem;
+  }
+  .copyright{
+    color: #dad8d8;
+    align-content: center;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width:500px){
+    .icon{
+    
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: fixed;
+      height: 10vh;
+      background-color: #fff;
+      z-index: 99999;
+
+     
+    }
+    .icon img{
+      
+      margin-left: 2rem;
+    }
+    .icon .brand img{
+        display:none;
+    }
+    
+    .connecting{
+     
+      background-color: #fff8ee;
+      padding: 5rem;
+    }
+    .connecting .row .body h2,p{
+        width:65vw ;
+    }
+    .connecting .row .body img{
+        display: none;
+    }
+    .icon Button{
+      color: #f84ca2;
+      background: #fff8ee;
+      border-color: #f84ca2;
+      margin-right: 0rem;
+      margin-left: 0rem;
+    }
+    
+    
+    .body{
+      margin-left: 2rem;
+     
+      color: #353434;
+    }
+    
+    .body p{
+      color:#5f5d5d;
+      font-size: 1rem;
+    }
+    .body img{
+      width: 30vw;
+    }
+    .calculator{
+      border: 0.1px solid #720d42;
+        height: 200vh;
+        
+        background: #940a51;
+        outline: none;
+    }
+    .calc{
+      color: #fcfcfc;
+      
+       text-align: center;
+       margin-left: 1rem;
+      padding: 4rem;
+      font-size: 1rem;
+     
+        
+    }
+    .calculator p{
+      color:#e2ded9;
+      font-size: 0.9rem;
+    }
+    .calculator1{
+      margin-top: 1rem;
+      height: 50vh;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-bottom: 5rem;
+      background: #fcfcfc;
+      font-size: 1rem;
+      padding: 3rem 3rem 3rem 3rem;
+      
+    
+    }
+    .calculator2{
+      margin-top: 1rem;
+      height: 50vh;
+      margin-left: 3.5rem;
+      margin-right: 2rem;
+      margin-bottom: 5rem;
+      background: #fcfcfc;
+      font-size: 1rem;
+      text-align: center;
+    
+    }
+    .calculator2 h1{
+      margin-top: 5rem;
+      font-size: 2rem;
+    } 
+    .calculator2 p{
+      color: #3d3c3c;
+      font-size: 1rem;
+    } 
+    
+    .alert img{
+      float: left;
+    }
+    .alert p{
+      font-size: 0.6rem;
+    }
+    .location{
+      background: #720d42;
+      height: 100vh;
+      margin-top: 0px;
+      color:#e2ded9;
+    }
+    .location1{
+      margin-left: 1rem;
+     
+      font-size: 0.8rem;
+      text-align: center;
+    
+    }
+    .state{
+      line-height: 0.8rem;
+      font-size: 0.7rem;
+      text-decoration: none;
+      
+      
+    }
+    a.town:hover{
+        color:white;
+    }
+    
+    .delivery{
+      background: #ffffff;
+      height: 150vh;
+      margin-top: 1px;
+      color: #252525;;
+    }
+    .delivery1{
+      line-height: 1rem;
+      font-size: 0.7rem;
+      text-align: center;
+      margin-top: 3rem;
+      
+    }
+    .images{
+      line-height: 1.3rem;
+      font-size: 1rem;
+      text-align: center;
+      
+    }
+    .images img {
+   
+      margin-top: 3rem;
+    }
+    
+    .Nation{
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+      background-color: #ffffff;
+      padding: 3rem;
+      height: 70vh;
+      flex-wrap: wrap;
+    }
+    .nation{
+      margin-left: 1rem;
+      width: 50vw;
+      columns: #353434;
+    }
+    .nation h2{
+      margin-top: 1rem;
+      color:#080808;
+      margin-left: 3rem;
+    }
+    .nation p{
+      color:#5f5d5d;
+      font-size: 1rem;
+      margin-left: 4rem;
+    }
+    .Nation Button{
+      color: #f84ca2;
+      background: #f7f4f4;
+      border-color: #f84ca2;
+      margin-right: 2rem;
+      margin-left: 2rem;
+    }
+    .nation img{
+      width: 75vw;
+      height: 40vh;
+      text-align: center;
+      margin-left: 4.5rem;
+      margin-top: 0.2rem;
+
+    }
+    .row .body img{
+        width: 60vw;
+        height: 35vh;
+        text-align: center;
+        margin-left: 2rem;
+        margin-top: 0.1rem
+
+    }
+    .row .nation img{
+        width: 50vw;
+        height: 26vh;
+        text-align: center;
+        margin-left: 3.7rem;
+        margin-top: 0.1rem
+
+
+    }
+    
+  }
+  .footer1{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #f8f8f8;
+   
+    height: 5vh;
+    
+  }
+  .footer{
+    background-color: #383636;
+    padding: 2rem;
+    height: 30vh;
+    width: 100vw;
+    
+    
+  
+  }
+  .i img{
+    width: 10vw;
+    height: 9vh;
+  }
+  .socialicon img{
+    width: 3vw;
+    height: 4vh;
+    margin: 0.1rem;
+  }
+  .footer1{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #f8f8f8;
+    height: 5vh;
+    
+  }
+  .footer li{
+    display: inline;
+    color:#e2ded9;
+    font-size: 0.5rem;
+    
+  }
+  
+  .footer a{
+    text-decoration: none;
+    color: #e2ded9;
+  }
+  a:hover{
+    background-color: none;
+    text-decoration: none;
+    
+  }
+  .l p{
+    margin-left: 0rem;
+    color: #e2ded9;
+    font-size: 0.5rem;
+  }
+  .copyright{
+    margin-top: 3rem;
+    color: #e7e3e3;
+    align-content: center;
+    font-size: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+    
+
