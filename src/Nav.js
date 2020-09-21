@@ -7,6 +7,7 @@ import icon1 from './image/icon1.png';
 
 
 
+
 class nav extends Component {
   render() {
     return (
@@ -23,18 +24,12 @@ class nav extends Component {
                 <Nav.Link href="#link">Our Services</Nav.Link>
                 <Nav.Link href="#link">Api Integration</Nav.Link>
                 <Nav.Link href="#link">Our Location</Nav.Link>
-               
-                
-               
                 </Nav>
-           
-               
-              
-                
             </Navbar.Collapse>
-            <Button >Sign up Nows</Button>
-                <Button >Sign in</Button>
-            <Navbar.Brand className="brand"> <img  src={icon1} alt="img"/></Navbar.Brand>
+            <Button  variant="secondary" size="sm">Sign up Nows</Button>
+                <Button  variant="secondary" size="sm" >Sign in</Button>
+           <Navbar.Brand className="brand">  <Nav.Link href="#home"><img  src={icon1} alt="img"/>
+            </Nav.Link></Navbar.Brand> 
             </Navbar>
             </div>    
         
@@ -44,3 +39,6 @@ class nav extends Component {
 }
 
 export default nav;
+ 
+
+

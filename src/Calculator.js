@@ -27,11 +27,11 @@ class Calulator extends Component {
                       <option>From</option>
                     <Row>
                         <Col>
-                        <Form.Control placeholder="First name" />
+                        <Form.Control placeholder="Select State" />
                         
                         </Col>
                         <Col>
-                        <Form.Control placeholder="Last name" />
+                        <Form.Control placeholder="Select State" />
                         </Col>
                         </Row>
 
@@ -194,7 +194,7 @@ class Calulator extends Component {
                                         
                                           <Form.Control as="select" custom>
                                               <option value="Abia">
-                                                  Abia
+                                                  Abuja
                                                 </option>
                                             </Form.Control>
                                         </Col>
@@ -206,7 +206,7 @@ class Calulator extends Component {
                             <Form.Group controlId="exampleForm.SelectCustomSizeSm">
                             <Form.Label>Weight(Kg) </Form.Label><br/>
                           
-                                        <input type="number" class="from-select" placeholder="0.000" name="weight"
+                                        <input type="number" className="from-select" placeholder="0.000" name="weight"
                                             min="0.001" max="70" required />
                            
                           </Form.Group>

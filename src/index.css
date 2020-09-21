@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
     font-family: sans-serif;
     background-color: #fff8ee;
+    width: 100%;
    
   }
   .icon{
@@ -12,7 +13,7 @@ body {
     justify-content: space-between;
     position: fixed;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     background-color: #fff;
     top: 0;
     left: 0;
@@ -37,6 +38,8 @@ body {
    
     background-color: #fff8ee;
     padding: 15rem;
+    width: 100%;
+    height: 140vh;
   }
   .icon Button{
     color: #f84ca2;
@@ -262,14 +265,29 @@ body {
     justify-content: center;
   }
   
-  @media screen and (max-width:500px){
+  @media screen and (max-width:479px){
+    
+    body {
+        margin:0 auto;
+       
+        box-sizing: border-box;
+        font-family: sans-serif;
+        background-color: #fff8ee;
+        width: 100vw;
+        background-position: center;
+        background-size: cover;
+       
+      }
+    
+
     .icon{
     
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+     
       position: fixed;
       height: 10vh;
+      width:100%;
       background-color: #fff;
       z-index: 99999;
 
@@ -277,7 +295,7 @@ body {
     }
     .icon img{
       
-      margin-left: 2rem;
+      margin-left: 0.4rem;
     }
     .icon .brand img{
         display:none;
@@ -289,7 +307,7 @@ body {
       padding: 5rem;
     }
     .connecting .row .body h2,p{
-        width:65vw ;
+        width:55vw ;
     }
     .connecting .row .body img{
         display: none;
@@ -298,13 +316,16 @@ body {
       color: #f84ca2;
       background: #fff8ee;
       border-color: #f84ca2;
-      margin-right: 0rem;
       margin-left: 0rem;
+      margin-right: 0rem;
+      
+    
+      
     }
     
     
     .body{
-      margin-left: 2rem;
+      margin-left: 1rem;
      
       color: #353434;
     }
@@ -314,7 +335,7 @@ body {
       font-size: 1rem;
     }
     .body img{
-      width: 30vw;
+      width: 24vw;
     }
     .calculator{
       border: 0.1px solid #720d42;
@@ -328,7 +349,7 @@ body {
       
        text-align: center;
        margin-left: 1rem;
-      padding: 4rem;
+      padding: 3rem;
       font-size: 1rem;
      
         
@@ -339,10 +360,10 @@ body {
     }
     .calculator1{
       margin-top: 1rem;
-      height: 50vh;
-      margin-left: 2rem;
-      margin-right: 2rem;
-      margin-bottom: 5rem;
+      height: 68vh;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 4rem;
       background: #fcfcfc;
       font-size: 1rem;
       padding: 3rem 3rem 3rem 3rem;
@@ -361,7 +382,7 @@ body {
     
     }
     .calculator2 h1{
-      margin-top: 5rem;
+      margin-top: 4rem;
       font-size: 2rem;
     } 
     .calculator2 p{
@@ -390,7 +411,7 @@ body {
     }
     .state{
       line-height: 0.8rem;
-      font-size: 0.7rem;
+      font-size: 0.6rem;
       text-decoration: none;
       
       
@@ -401,15 +422,18 @@ body {
     
     .delivery{
       background: #ffffff;
-      height: 150vh;
+      height: 200vh;
+      width: 100%;
       margin-top: 1px;
-      color: #252525;;
+      color: #252525;
+      
     }
     .delivery1{
       line-height: 1rem;
+      
       font-size: 0.7rem;
       text-align: center;
-      margin-top: 3rem;
+      margin-top: 1rem;
       
     }
     .images{
@@ -420,14 +444,14 @@ body {
     }
     .images img {
    
-      margin-top: 3rem;
+      margin-top: 2rem;
     }
     
     .Nation{
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
       background-color: #ffffff;
       padding: 3rem;
-      height: 70vh;
+      height: 85vh;
       flex-wrap: wrap;
     }
     .nation{
@@ -438,41 +462,41 @@ body {
     .nation h2{
       margin-top: 1rem;
       color:#080808;
-      margin-left: 3rem;
+      margin-left: 1rem;
     }
     .nation p{
       color:#5f5d5d;
       font-size: 1rem;
-      margin-left: 4rem;
+      margin-left: 1rem;
     }
     .Nation Button{
       color: #f84ca2;
       background: #f7f4f4;
       border-color: #f84ca2;
-      margin-right: 2rem;
+      margin-right: 1rem;
       margin-left: 2rem;
     }
     .nation img{
-      width: 75vw;
-      height: 40vh;
+      width: 55vw;
+      height: 30vh;
       text-align: center;
-      margin-left: 4.5rem;
+      margin-left: 2rem;
       margin-top: 0.2rem;
 
     }
     .row .body img{
-        width: 60vw;
-        height: 35vh;
+        width: 40vw;
+        height: 30vh;
         text-align: center;
         margin-left: 2rem;
         margin-top: 0.1rem
 
     }
     .row .nation img{
-        width: 50vw;
-        height: 26vh;
+        width: 40vw;
+        height: 20vh;
         text-align: center;
-        margin-left: 3.7rem;
+        margin-left: 2rem;
         margin-top: 0.1rem
 
 
@@ -489,7 +513,7 @@ body {
   .footer{
     background-color: #383636;
     padding: 2rem;
-    height: 30vh;
+    height: 55vh;
     width: 100vw;
     
     
