@@ -1,12 +1,9 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    background-color: #fff8ee;
-    width: 100%;
-   
-  }
+     body{
+         margin: 0;
+         box-sizing: border-box;
+         padding: 0;
+         font-family: sans-serif;
+     }
   .icon{
     display: flex;
     flex-direction: row;
@@ -31,15 +28,16 @@ body {
   }
   .icon img{
     
-    margin-left: 7rem;
+    margin-left: 5rem;
   }
   
   .connecting{
    
     background-color: #fff8ee;
-    padding: 15rem;
-    width: 100%;
-    height: 140vh;
+    padding: 5rem;
+    width: 50%;
+    height: 80vh;
+    float:left;
   }
   .icon Button{
     color: #f84ca2;
@@ -54,7 +52,7 @@ body {
   }
   
   .body{
-    margin-left: 7rem;
+    margin-left: 5rem;
    
     color: #353434;
   }
@@ -67,7 +65,7 @@ body {
     font-size: 1rem;
   }
   .body img{
-    width: 30vw;
+    width: 28vw;
   }
   .one input{
     width: 20vw;
@@ -168,7 +166,8 @@ body {
     background: #f7f4f4;
     height: 80vh;
     margin-top: 0px;
-    columns: #252525;;
+    columns: #252525;
+    
   }
   .delivery1{
     margin-left: 2rem;
@@ -178,7 +177,7 @@ body {
   
   }
   .images{
-    line-height: 1rem;
+    line-height: 1.6rem;
     font-size: 1rem;
     text-align: center;
   }
@@ -265,29 +264,19 @@ body {
     justify-content: center;
   }
   
-  @media screen and (max-width:479px){
+  @media screen and (max-width:480px){
     
-    body {
-        margin:0 auto;
-       
-        box-sizing: border-box;
-        font-family: sans-serif;
-        background-color: #fff8ee;
-        width: 100vw;
-        background-position: center;
-        background-size: cover;
-       
-      }
+   
     
 
     .icon{
     
       display: flex;
-      flex-direction: row;
+     
      
       position: fixed;
       height: 10vh;
-      width:100%;
+     
       background-color: #fff;
       z-index: 99999;
 
@@ -305,6 +294,7 @@ body {
      
       background-color: #fff8ee;
       padding: 5rem;
+    
     }
     .connecting .row .body h2,p{
         width:55vw ;
@@ -372,7 +362,7 @@ body {
     }
     .calculator2{
       margin-top: 1rem;
-      height: 50vh;
+      height: 40vh;
       margin-left: 3.5rem;
       margin-right: 2rem;
       margin-bottom: 5rem;
@@ -398,9 +388,10 @@ body {
     }
     .location{
       background: #720d42;
-      height: 100vh;
+      height: 150vh;
       margin-top: 0px;
       color:#e2ded9;
+      width: 100vw;
     }
     .location1{
       margin-left: 1rem;
@@ -423,7 +414,7 @@ body {
     .delivery{
       background: #ffffff;
       height: 200vh;
-      width: 100%;
+      width: 100vw;
       margin-top: 1px;
       color: #252525;
       
@@ -453,6 +444,7 @@ body {
       padding: 3rem;
       height: 85vh;
       flex-wrap: wrap;
+      
     }
     .nation{
       margin-left: 1rem;
@@ -514,7 +506,7 @@ body {
     background-color: #383636;
     padding: 2rem;
     height: 55vh;
-    width: 100vw;
+  
     
     
   
