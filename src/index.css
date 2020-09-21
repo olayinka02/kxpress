@@ -52,20 +52,24 @@ html body{
   }
   
   .body{
-    margin-left: 7rem;
+    margin-left: 2rem;
    
     color: #353434;
   }
   .connecting .row .body h2,p{
       width:24vw ;
+      margin-top: 6rem;
   }
   
   .body p{
     color:#5f5d5d;
     font-size: 1rem;
+
   }
   .body img{
     width: 30vw;
+    margin-left: 4rem;
+    margin-top: 6rem;
   }
   .one input{
     width: 20vw;
