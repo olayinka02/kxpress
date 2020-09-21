@@ -1,9 +1,9 @@
-     body{
-         margin: 0;
-         box-sizing: border-box;
-         padding: 0;
-         font-family: sans-serif;
-     }
+html body{
+    overflow-x: hidden;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
   .icon{
     display: flex;
     flex-direction: row;
@@ -28,15 +28,15 @@
   }
   .icon img{
     
-    margin-left: 5rem;
+    margin-left: 7rem;
   }
   
   .connecting{
    
     background-color: #fff8ee;
     padding: 5rem;
-    width: 50%;
-    height: 80vh;
+    width: 100vw;
+    height: 160vh;
     float:left;
   }
   .icon Button{
@@ -52,7 +52,7 @@
   }
   
   .body{
-    margin-left: 5rem;
+    margin-left: 7rem;
    
     color: #353434;
   }
@@ -65,7 +65,7 @@
     font-size: 1rem;
   }
   .body img{
-    width: 28vw;
+    width: 30vw;
   }
   .one input{
     width: 20vw;
@@ -166,8 +166,7 @@
     background: #f7f4f4;
     height: 80vh;
     margin-top: 0px;
-    columns: #252525;
-    
+    columns: #252525;;
   }
   .delivery1{
     margin-left: 2rem;
@@ -177,7 +176,7 @@
   
   }
   .images{
-    line-height: 1.6rem;
+    line-height: 1rem;
     font-size: 1rem;
     text-align: center;
   }
@@ -264,9 +263,17 @@
     justify-content: center;
   }
   
-  @media screen and (max-width:480px){
+  @media only screen and (max-width:480px){
     
-   
+  html{
+    overflow-x: hidden;
+       margin: 0 auto;
+       width:100vw;
+      
+   }
+    #root{
+          width:100vw;
+      }
     
 
     .icon{
@@ -506,7 +513,7 @@
     background-color: #383636;
     padding: 2rem;
     height: 55vh;
-  
+    width: 100vw;
     
     
   
@@ -516,9 +523,9 @@
     height: 9vh;
   }
   .socialicon img{
-    width: 3vw;
-    height: 4vh;
-    margin: 0.1rem;
+    width: 4vw;
+    height: 5vh;
+    margin: 0.4rem;
   }
   .footer1{
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);

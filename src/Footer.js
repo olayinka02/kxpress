@@ -30,11 +30,11 @@ class Footer extends Component {
                   <li><Link to='/'> Privacy</Link></li>   
                   <li><Link to='/'> Terms and Conditions</Link></li>   
                   <li><Link to='/'> API Integration</Link></li>   
-                
+                    <center>
                   <Link to='/'><img src="https://kxpress.ng/img/group-3.svg" alt="fb"/> </Link>
                   <Link to='/'><img src="https://kxpress.ng/img/group-4.svg" alt="twitter"/></Link>
                   <Link to='/'><img src="https://kxpress.ng/img/group-12.svg" alt="ig"/></Link>
-                      </ul>
+                  </center>  </ul>
                   </div>
               </div>
               <div className="row">

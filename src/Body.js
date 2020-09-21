@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 class Body extends Component {
   render() {
     return (
-      <div style={{width:'100%'}}>
+      <div style={{width:'100vw'}}>
           <div className="container-fluid connecting" >
               <div className="row">
                   <div className="col-4 body">
@@ -25,4 +25,6 @@ class Body extends Component {
 }
 
 export default Body;
+
+
 
